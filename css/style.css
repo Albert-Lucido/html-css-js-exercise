@@ -1,0 +1,134 @@
+
+.nav {
+    font-family: "Times New Roman";
+    position: fixed;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    z-index: 1;
+}
+
+.nav a {
+    text-decoration: none;
+    color: white;
+}
+
+
+#name {
+    font-size: 30px;
+}
+
+#name1 {
+    padding-top: 15px;
+    font-size:20px;
+}
+
+#name2 {
+    padding-top: 15px;
+    font-size:20px;
+}
+
+/*portfolio*/
+
+section{
+    font-family:"helvetica";
+    position: relative;
+    width: 100%;
+    padding: 65px 20px 120px 40px;
+    background-color:inherit;
+}
+
+section h1{
+    color:rgb(83, 24, 24);
+    background-color: inherit;
+    text-align: center;
+    font-size: 50px;
+}
+
+.container-fluid {
+    background-color: white;
+}
+.row {
+    font-family: "Times New Roman";
+    position: relative;
+    display: inline;
+    width: 100%;
+    background-color: white;
+    
+}
+
+.col {
+    background-color: rgb(188, 188, 188);
+    text-align: center;
+    margin: 10px;
+    padding: 5px;
+    border-radius: 10px;;
+    width: inherit;
+    color: black;
+}
+
+.col a {
+    color: black;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+.col img {
+    border-radius: 35px;
+}
+
+.col p {
+    font-family:inherit;
+
+}
+
+
+/*Modal*/
+
+.modal {
+    display: none;
+    position: fixed; 
+    z-index: 1; 
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.4);
+  }
+  
+
+  .modal-content {
+    background-color: #fefefe;
+    margin: 20% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 85%;
+}
+  
+  .close {
+    color: #ff0000;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+  
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+/*contact form*/
+
+form {
+    background-color: rgb(156, 77, 21);
+    color: white;
+    font-family: helvetica;
+    padding:50px;
+}
+
+
